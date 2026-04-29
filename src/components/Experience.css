@@ -121,21 +121,32 @@ line-height:1.6;
 
 .timeline-item{
 width:100%;
-padding-left:60px;
+padding-left:80px;
 margin-left:0;
 text-align:left;
 }
 
+.timeline-item.left,
+.timeline-item.right{
+margin-left:0;
+padding-right:0;
+text-align:left;
+}
+
 .timeline-line{
-left:20px;
+left:30px;
+transform:none;
 }
 
 .timeline-dot{
-left:-30px;
+left:-28px;
+right:auto;
 }
 
-.timeline-item.left{
-padding-right:0;
+.timeline-item.left .timeline-dot,
+.timeline-item.right .timeline-dot{
+left:-28px;
+right:auto;
 }
 
 }
@@ -147,8 +158,58 @@ padding-right:0;
 font-size:30px;
 }
 
+.timeline-item{
+width:100%;
+margin-left:0;
+padding-left:65px;
+text-align:left;
+}
+
+.timeline-item.left,
+.timeline-item.right{
+padding-left:65px;
+}
+
+.timeline-line{
+left:20px;
+transform:none;
+}
+
+.timeline-dot{
+left:-24px;
+width:14px;
+height:14px;
+top:22px;
+right:auto;
+}
+
+.timeline-item.left .timeline-dot,
+.timeline-item.right .timeline-dot{
+left:-24px;
+right:auto;
+}
+
 .timeline-card{
-padding:20px;
+padding:18px;
+}
+
+.timeline-title{
+font-size:18px;
+}
+
+.timeline-desc{
+font-size:14px;
+line-height:1.7;
+}
+
+.timeline-type{
+display:inline-block;
+margin-top:10px;
+font-size:13px;
+padding:4px 10px;
+border-radius:9999px;
+background:rgba(56,189,248,0.12);
+color:#38bdf8;
 }
 
 }
