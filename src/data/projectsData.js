@@ -1,10 +1,10 @@
-import EmotionRecognition from "../assets/projects/emotionrecognition.jpg";
-import ChatAnalysis from "../assets/projects/chatanalysis.jpg";
-import TimeSeries from "../assets/projects/timeseries.jpg";
-import BoxOffice from "../assets/projects/boxofficeml.jpg";
-import IPLAnalysis from "../assets/projects/iplanalysis.jpg";
-import DisneyAnalysis from "../assets/projects/disneyanalysis.jpg";
-import CifarCNN from "../assets/projects/cifar10cnn.jpg";
+import EmotionRecognition from "../assets/Projects/emotionrecognition.jpg";
+import ChatAnalysis from "../assets/Projects/chatanalysis.jpg";
+import TimeSeries from "../assets/Projects/timeseries.jpg";
+import BoxOffice from "../assets/Projects/boxofficeml.jpg";
+import IPLAnalysis from "../assets/Projects/iplanalysis.jpg";
+import DisneyAnalysis from "../assets/Projects/disneyanalysis.jpg";
+import CifarCNN from "../assets/Projects/cifar10cnn.jpg";
 
 export const projectsData = [
   {
