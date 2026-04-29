@@ -1,0 +1,91 @@
+.footer{
+background:#020617;
+border-top:1px solid rgba(56,189,248,0.2);
+padding:50px 0;
+position:relative;
+}
+
+/* CONTAINER */
+
+.footer-container{
+max-width:1100px;
+margin:auto;
+text-align:center;
+padding:0 20px;
+}
+
+/* TEXT */
+
+.footer-text{
+color:#94a3b8;
+font-size:14px;
+margin-bottom:5px;
+}
+
+.footer-subtext{
+color:#64748b;
+font-size:12px;
+}
+
+/* SCROLL BUTTON */
+
+.scroll-top{
+position:fixed;
+bottom:30px;
+right:30px;
+
+width:45px;
+height:45px;
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+background:#2563eb;
+color:white;
+
+border:none;
+cursor:pointer;
+
+font-size:18px;
+
+transition:.3s;
+z-index:100;
+}
+
+.scroll-top:hover{
+background:#38bdf8;
+color:black;
+transform:translateY(-3px);
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+.footer-text{
+font-size:12px;
+}
+
+.footer-subtext{
+font-size:11px;
+}
+
+.scroll-top{
+width:40px;
+height:40px;
+font-size:16px;
+}
+.footer-link {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #0097a7;
+}
+}
